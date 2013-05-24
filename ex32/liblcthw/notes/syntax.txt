@@ -1,0 +1,1 @@
+static inline function == define (more clear, but w\o code generation)

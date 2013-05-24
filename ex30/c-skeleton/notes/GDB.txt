@@ -1,0 +1,24 @@
+help COMMAND
+
+break file.c:(line|function)
+
+run ARGS
+
+cont
+
+step
+
+next
+
+backtrace (bt)
+    thread apply all bt (to make bt for all processes)
+
+set var X = Y
+
+print X
+
+ENTER (repeat last command)
+
+quit
+
+gdb --batch --ex r --ex bt --ex q --args
